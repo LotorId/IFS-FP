@@ -1,0 +1,22 @@
+Faça um algoritmo para ler o valor do saque realizado pelo cliente de um banco e escrever
+quantas notas de cada valor serão necessárias para atender ao saque com a menor quantidade de
+notas possível. Serão utilizadas notas de 100, 50, 20, 5 e 1 reais.
+
+Algoritmo conta_notas;
+Variaveis
+	valor, n100, n50, n20, n5, n1 : Inteiro;
+Inicio
+	Escreva("Entre com o valor do saque: ");
+	Leia(valor);
+	n100 <- Resto(valor,100);
+	n50 <- Resto(valor,50);
+	n20 <- Resto(valor,20);
+	n5 <- Resto(valor,5);
+	n1 <- Resto(valor,1);
+	Escreva("A melhor opção de saque é:");
+	Escreva("Notas de 100: " + n100);
+	Escreva("Notas de 50" + n50);
+	Escreva("Notas de 20" + n20);
+	Escreva("Notas de 5 " + n5;
+	Escreva("Notas de 1" + n1);
+Fim.

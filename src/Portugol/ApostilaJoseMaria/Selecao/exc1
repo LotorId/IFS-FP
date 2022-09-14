@@ -1,0 +1,13 @@
+Faça um algoritmo para ler um número inteiro e informar se este é maior que 10.
+
+Algoritmo maior_10;
+Variaveis
+    n : Inteiro;
+Inicio
+    Escreva("Escreva um número para saber se ele é maior que 10");
+    Leia(n)
+    Se (n > 10) Entao
+        Escreva("O número " + n + "é maior que 10");
+    Senao
+        Escreva("O número " + n + " não é maior que 10");
+Fim.

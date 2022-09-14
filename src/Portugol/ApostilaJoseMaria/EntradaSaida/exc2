@@ -1,0 +1,11 @@
+Faça um algoritmo para ler os coeficiente de uma equação do segundo grau e escrever o valor do seu Delta.
+
+Algoritmo delta;
+Variaveis
+	a, b, c, delta : Real;
+Inicio
+	Escreva("Entre com três coeficientes da equação de segundo grau (ax²+bx+c: ");
+	Leia(a, b, c);
+	delta <- (b * b - 4 * a * c);
+	Escreva("O delta desta equação é: ");
+Fim.

@@ -1,0 +1,20 @@
+Faça um algoritmo para ler dois números inteiros representando um intervalo e escrever em
+ordem crescente todos os números ímpares do intervalo.
+
+Algoritmo intervalo;
+Variaveis;
+    i, n1, n2 : Inteiro;
+Inicio
+    Escreva("Entre com o primeiro termo do intervalo: );
+    Leia(n1);
+    Escreva("Entre com o segundo termo do intervalo: );
+    Leia(n2);
+    Se n1 > n2 Entao
+        Para i <- n2 Ate n1 Faca
+            Se Resto(i,2) <> 0 Entao
+                Escreva(i)
+    Senao
+        Para i <- n1 Ate n2 Faca
+            Se Resto(i,2) <> 0 Entao
+                Escreva(i)
+Fim.

@@ -1,0 +1,12 @@
+Faça um algoritmo para ler duas variáveis inteiras e trocar o seu conteúdo.
+
+Algoritmo troca_conteudo;
+Variaveis
+	n1, n2, temp : Inteiro;
+Inicio
+	Escreva("Entre com dois números inteiros");
+	Leia(n1, n2);
+	temp <- n1;
+	n1 <- n2;
+	n2 <- temp;
+Fim.

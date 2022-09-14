@@ -1,0 +1,13 @@
+Faça um algoritmo para ler um número inteiro e informar se o número é par ou ímpar.
+
+Algoritmo par_impar;
+Variaveis
+    n : Inteiro;
+Inicio
+    Escreva("Entre com um número inteiro para saber se ele é par ou impar: ");
+    Leia(n);
+    Se Resto(n,2) == 0 Entao
+        Escreva("O número inserido é par!");
+    Senao
+        Escreva("O número inserido é impar!");
+Fim.

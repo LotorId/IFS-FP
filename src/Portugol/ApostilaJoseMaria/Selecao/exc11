@@ -1,0 +1,31 @@
+Faça um algoritmo para ler três números positivos e escrevê-los em ordem crescente.
+
+Algoritmo crescente
+Variaveis
+	n1, n2, n3 : Real;
+Inicio
+	Escreva("Entre com três números positivos: ");
+	Leia(n1, n2, n3);
+	Se ((n1 < n2) e (n1 < n3)) Entao
+	Inicio
+	    Se n2 < n3 Entao
+	        Escreva("Os números em ordem crescente são:" + n1 + "," + n2 + "," n3);
+	    Senao
+		Escreva("Os números em ordem crescente são:" + n1 + "," + n3 + "," n2);
+	FimSe
+	Senao
+	Inicio
+	    Se ((n2 < n1) e (n2 < n3)) Entao
+	        Se n1 < n3 Entao
+	            Escreva("Os números em ordem crescente são:" + n2 + "," + n1 + "," n3);
+	    	Senao
+		    Escreva("Os números em ordem crescente são:" + n2 + "," + n3 + "," n1);
+	    Senao
+	    Inicio
+	        Se (n1 < n2) Entao
+	            Escreva("Os números em ordem crescente são:" + n3 + "," + n1 + "," n2);
+	    	Senao
+		    Escreva("Os números em ordem crescente são:" + n3 + "," + n2 + "," n1);
+	    FimSenao
+	FimSenao
+Fim.

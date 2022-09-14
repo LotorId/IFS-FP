@@ -1,0 +1,12 @@
+Construa um programa que leia quatro valores inteiros A, B, C e D. A seguir, calcule
+e mostre a diferença do produto de A e B pelo produto de C e D.
+
+Algoritmo diferenca;
+Variaveis
+    a, b, c, d, diferença : Inteiro;
+Inicio
+    Escreva("Entre com valores para A, B, C e D: ");
+    Leia(a, b, c, d);
+    diferença <- (a * b) - (c * d);
+    Escreva("A diferença do produto de A e B pelo produto de C e D é: " + diferenca)
+Fim.

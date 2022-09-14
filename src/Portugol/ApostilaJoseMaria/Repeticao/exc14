@@ -1,0 +1,42 @@
+Faça um algoritmo para ler um número inteiros positivo e informar se este número é primo ou
+não.
+
+Algoritmo primo;
+Variaveis
+	i, num, primo : Inteiro;
+Inicio
+	Escreva("Digite um número para calcular se ele é primo: ");
+	Leia(num);
+	primo <- 0;
+	Se num > 0 Entao
+	    Para i <- 1 Ate n Faca
+	        primo <- primo + Resto(n, i);
+	    Se primo == 0 Entao
+		Escreva("O número é primo")
+	    Senao
+		Escreva("O número não é primo");
+	Senao
+        Escreva("Não é possível calcular"
+
+    FLAG
+
+Algoritmo primo;
+Variaveis
+    i, n, cont, x : Inteiro;
+Inicio
+    Escreva(Insira um numero para saber se ele é primo ou não (para sair digite -1): );
+    Leia(n);
+    Enquanto n != -1 Faca
+    Inicio
+        x <- 0;
+        Para i <- 1 ate n Faca
+            Se Resto(n,i) == 0 Entao
+                 x <- x + 1
+        Se x == 2 Entao
+            Escreva(n + "é primo");
+        Senao
+            Escreva(m + "não é primo");
+        Escreva(Insira um numero para saber se ele é primo ou não (para sair digite -1): );
+        Leia(n)
+    FimEnquanto
+Fim.

@@ -1,0 +1,16 @@
+Faça um programa que leia um valor representando o gasto realizado por um
+cliente do restaurante COMABEM, bem como a percentual de serviço. Ao final, o
+programa devera imprimir o valor total a ser pago, incluindo o percentual do
+garçom.
+
+Algoritmo restaurante_comabem;
+Variaveis
+    valor, porcentagem, gasto : Real;
+Inicio
+    Escreva("Entre com o valor gasto no Restaurante COMABEM: ");
+    Leia(gasto);
+    Escreva("Entre com o percentual do serviço: ");
+    Leia(porcentagem);
+    valor <- ((porcentagem / 100) * gasto) + gasto;
+    Escreva("O valor a ser pago é: " + valor);
+Fim.

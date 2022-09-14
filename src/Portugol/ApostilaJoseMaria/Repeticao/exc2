@@ -1,0 +1,12 @@
+Faça um algoritmo para escrever os números pares entre 1 e 1000
+
+Algoritmo pares_mil;
+Variaveis
+    i : Inteiro;
+Inicio
+    Para i <- 1 Ate 1000 Faca
+    Inicio
+        i < i + 1;
+        print(i);
+    FimPara
+Fim.

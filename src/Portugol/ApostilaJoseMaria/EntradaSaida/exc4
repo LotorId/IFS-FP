@@ -1,0 +1,12 @@
+Faça um algoritmo para ler uma temperatura em graus Celsius e transformá-la em farenheit. Utilize a seguinte fórmula:
+F = ((180 * C) / 100) + 32
+
+Algoritmo celsius_farenheit;
+Variaveis
+	c, f : Real;
+Inicio
+	Escreva("Entre com a temperatura em graus Celsius: ");
+	Leia(c);
+	f <- (180 * c / 100) + 32;
+	Escreva("A temperatura em Farenheit é: " + f + "ºF");
+Fim.

@@ -1,0 +1,19 @@
+Faça um algoritmo para ler um número inteiro positivo e escrever o seu fatorial.
+
+Algoritmo fatorial
+Variaveis
+	i, num, fat : Inteiro
+Inicio
+	Escreva("Entre com um número positivo para calcular seu fatorial: ");
+	Leia(fat);
+	Se (fat > 0) Entao
+	    num <- fat;
+	    Escreva("Seu fatorial é:");
+	    Para i <- 1 Ate fat Faca
+	    Inicio
+	        fat <- fat * num - 1
+		num <- num - 1
+	    FimSe
+	    Escreva("O fatorial é " + fat);
+	Senao("Nao ha numeros para calcular");
+Fim.

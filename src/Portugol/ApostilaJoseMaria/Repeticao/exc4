@@ -1,0 +1,17 @@
+Faça um algoritmo para ler 100 números inteiros e escrever a soma e a média dos números lidos.
+
+Algoritmo soma_e_media;
+Variaveis
+	n1, i, soma : Inteiro;
+	media : Real;
+Inicio
+	soma <- 0;
+	Para i <- 1 Ate 100 Faca
+	Inicio
+	    Escreva("Entre com um número inteiro: ");
+	    Leia(n1);
+	    soma <- soma + n1;
+	FimPara
+	media <- soma/100;
+	Escreva("A soma dos números é: " + soma + "e a média é: " + media);
+Fim.

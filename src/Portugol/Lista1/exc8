@@ -1,0 +1,15 @@
+Construa um programa que calcule o consumo médio de um automóvel sendo
+fornecidos a distância total percorrida (em Km) e o total de combustível gasto (em
+litros).
+
+Algoritmo consumo_medio;
+Variaveis
+    cm, dt, cg : Real;
+Inicio
+    Escreva(“Insira a distância total percorrida (em Km): “);
+    Leia(dt);
+    Escreva(“Insira o total de combustível gasto(em L): “);
+    Leia(cg);
+    cm <- dt/cg;
+    Escreva(“O consumo médio de combustível deste automóvel é de: “ + cm + “Km/L”);
+Fim.

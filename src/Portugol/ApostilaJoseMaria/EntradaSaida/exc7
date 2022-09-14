@@ -1,0 +1,17 @@
+Faça um algoritmo para ler o horário de entrada e saída de um cliente na fila de um banco e
+seguida calcular o tempo de permanência do cliente na fila. Cada horário será lido em duas
+variáveis inteiras representando a hora e os minutos. A resposta deve ser dada em horas (ex. 3:10).
+
+Algoritmo tempo_permanencia;
+Variaveis
+	hi, mi, hf, mf, hp, mp, tempo : Inteiro;
+Inicio
+	Escreva("Entre com a hora e o minuto de entrada: ");
+	Leia(hi, mi);
+	Escreva("Entre com a hora e o minuto de saída: ");
+	Leia(hf, mf);
+	tempo <- (hi * 60 + mi) + (hf * 60 + mf);
+	hp <- Quociente(tempo , 60);
+	mp <- Resto(tempo, 60);
+	Escreva("O tempo de permanencia é: " + hp + ":" + mp;
+Fim.

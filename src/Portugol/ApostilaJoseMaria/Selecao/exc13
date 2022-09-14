@@ -1,0 +1,29 @@
+Algoritmo aumento_salario;
+Variaveis
+	salario, aumento : Real;
+Inicio
+	aumento <- 0;
+	Escreva("Entre com o valor do salário: ");
+	Leia(salario);
+	Se (salario <= 500) Entao
+	    aumento <- salario * 0,5;
+	Senao
+	Inicio
+	    Se (salario <= 1000) Entao
+		aumento <- salario * 0,4;
+	    Senao
+	    Inicio
+		Se (salario <= 2000) Entao
+		    aumento <- salario * 0,3;
+		Senao
+		Inicio
+		    Se (salario <= 2500) Entao
+			aumento <- salario * 0,2;
+		    Senao
+			aumento <- salario * 0,1;
+		FimSenao
+	    FimSenao
+	FimSenao
+	salario <- salario + aumento;
+	Escreva("O aumento foi de R$" + aumento + ", seu novo salário é R$" + salario);
+Fim.

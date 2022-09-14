@@ -1,0 +1,14 @@
+Faça um algoritmo para ler o preço de compra e o percentual de lucro desejado por um vendedor e
+calcular o preço de venda.
+
+Algoritmo valor_venda;
+Variaveis
+	pcompra, pvenda, lucro : Real;
+Inicio
+	Escreva("Insira o valor de compra: ");
+	Leia(pcompra);
+	Escreva("Insira o percentual de lucro: ");
+	Leia(lucro);
+	pvenda <- (lucro * pcompra / 100) + pcompra;
+	Escreva("O valor de venda deste produto deverá ser: ");
+Fim.

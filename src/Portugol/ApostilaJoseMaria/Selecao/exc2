@@ -1,0 +1,14 @@
+Faça um algoritmo para ler dois números inteiros e informar se estes números são iguais ou
+diferentes.
+
+Algoritmo iguais;
+Variaveis
+    n1, n2 : Inteiro;
+Inicio
+    Escreva("Entre com 2 números inteiros para descobrir se ele são iguais: ");
+    Leia(n1, n2);
+    Se n1 == n2 Entao
+        Escreva("Os números são iguais");
+    Senao
+        Escreva("Os números não são iguais");
+Fim.

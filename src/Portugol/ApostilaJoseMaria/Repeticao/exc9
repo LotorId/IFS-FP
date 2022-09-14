@@ -1,0 +1,15 @@
+Faça algoritmo para escrever a série de Fibonacci = (0,1,1,2,3,5,8,13,21,34,...) enquanto o termo
+a ser impresso for menor que 5000.
+
+Algoritmo fibonacci;
+Variaveis
+     x, n1, n2; Inteiro;
+Inicio
+    x <- 0;
+    n <- 1;
+    Enquanto x < 5000 Faca
+        x <- (n - 1) + (n - 2);
+        Escreva(x);
+        n <- n + 1);
+    Fim Enquanto
+Fim

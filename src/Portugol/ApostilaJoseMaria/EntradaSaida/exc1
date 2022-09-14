@@ -1,0 +1,12 @@
+Faça um algoritmo para ler três números inteiros e escrever a média dos números lidos
+
+Algoritmo media;
+Variaveis
+    n1, n2, n3 : Inteiro;
+    media : Real;
+Inicio
+    Escreva("Escreva três números inteiros para calcular sua média: ";
+    Leia(n1, n2, n3);
+    media <- (n1 + n2 + n3) / 3;
+    Escreva("A média dos números digitados é " + media);
+Fim.

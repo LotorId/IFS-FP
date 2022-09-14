@@ -1,0 +1,9 @@
+Faça um algoritmo para escrever os números entre 1 e 1000
+
+Algoritmo um_mil;
+Variaveis
+    i : Inteiro;
+Inicio
+    Para i <- 1 Ate 1000 Faca
+        Escreva(i);
+Fim.

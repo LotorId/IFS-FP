@@ -1,0 +1,13 @@
+
+
+Algoritmo sequencia;
+Variaveis
+    i, n1, n2 : Real;
+Inicio
+    Escreva("Insira dois números, sendo que o primeiro deverá ser menor que o segundo: ");
+    Leia(n1, n2);
+    Para i <- 1 Ate n1 Faca
+	    Escreva(i);
+    Para i <- (n1 + 1) Ate n2 Faca
+	    Escreva(i);
+Fim.
