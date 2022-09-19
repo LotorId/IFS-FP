@@ -1,0 +1,22 @@
+Algoritmo seis_primo;
+Variaveis
+    n, i, x, y : Inteiro;
+Inicio
+    Escreva("Entre com um numero: ")
+    Leia(n);
+    x <- 1;
+    Enquanto x < 7 Faca
+        y <- 0;
+        Para i <- Ate n Faca
+        Inicio
+            Se Resto (i,2) == 0 Entao
+                y <- y +1;
+        FimPara
+        Se y == 2 Entao
+            Inicio
+                Escreva(n)
+                x <- x + 1
+            FimSe
+        n <- n + 1;
+    Fim Enquanto
+Fim.
