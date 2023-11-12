@@ -1,9 +1,0 @@
-Algoritmo calcular_trapezio;
-Variáveis
-    bmaior, bmenor, altura, resultado : Real;
-Início
-    Escreva("Insira os valores para a Base maior, base menor e altura");
-    Leia(bmaior, bmenor, altura);
-    resultado <- ((bmaior + bmenor) * altura)/2;
-    Escreva("A área desse trapézio é: " + resultado);
-Fim.
